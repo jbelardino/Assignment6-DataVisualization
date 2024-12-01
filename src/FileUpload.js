@@ -42,14 +42,12 @@ class FileUpload extends Component {
       // Add object to result if it's not an empty row
       if (Object.keys(obj).length && lines[i].trim()) {
         const parsedObj = {
-          Date:new Date(obj.Date),
-          Company: obj.Company,
-          Open: parseFloat(obj.Open),
-          High: parseFloat(obj.High),
-          Low: parseFloat(obj.Low),
-          Close: parseFloat(obj.Close),
-          AdjClose: parseFloat(obj["Adj Close"]),
-          Volume: parseInt(obj.Volume, 10),
+          'Date': new Date(obj.Date.split('-')),
+          'GPT-4': parseInt(obj["GPT-4"]),
+          'Gemini': parseInt(obj.Gemini),
+          'PaLM-2': parseInt(obj["PaLM-2"]),
+          'CLaude': parseInt(obj["Claude"]),
+          'LLaMa-3.1': parseInt(obj["LLaMA-3.1"])
         };
         result.push(parsedObj);
       }
