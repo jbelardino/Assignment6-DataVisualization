@@ -47,7 +47,7 @@ class FileUpload extends Component {
           'Gemini': parseInt(obj.Gemini),
           'PaLM-2': parseInt(obj["PaLM-2"]),
           'CLaude': parseInt(obj["Claude"]),
-          'LLaMa-3.1': parseInt(obj["LLaMA-3.1"])
+          'LLaMA-3.1': parseInt(obj["LLaMA-3.1"])
         };
         result.push(parsedObj);
       }
