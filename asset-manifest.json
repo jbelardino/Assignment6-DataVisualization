@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Assignment6-DataVisualization/static/css/main.31d6cfe0.css",
+    "main.js": "/Assignment6-DataVisualization/static/js/main.1b76f34d.js",
+    "index.html": "/Assignment6-DataVisualization/index.html",
+    "main.1b76f34d.js.map": "/Assignment6-DataVisualization/static/js/main.1b76f34d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.1b76f34d.js"
+  ]
+}
